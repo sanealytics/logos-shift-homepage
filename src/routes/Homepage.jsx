@@ -111,7 +111,7 @@ const HowItWorks = () => (
 
 const Pricing = ({ handleContactMe, handleStart }) => (
     <div className="bg-base-100 pb-10">
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center text-base-content">
         <h2 className="text-primary font-bold text-2xl mb-8">Pricing</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
@@ -290,7 +290,7 @@ export default function HomePage() {
         <Pricing handleContactMe={handleContactMe} handleStart={handleStart} />
 
         {/* Contact us */}
-        <div className="py-16 text-base-content">
+        <div className="py-16">
           <div className="container mx-auto text-center">
               <h2 className=' text-accent font-bold  text-2xl mb-8'>Expert Consulting</h2>
               <p className="font-body text-body mb-6">
